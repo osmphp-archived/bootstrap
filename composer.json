@@ -1,5 +1,13 @@
 {
     "name": "osmphp/bootstrap",
+    "description": "A base theme for Osm projects built using Bootstrap CSS",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Vladislav Osmianskij",
+            "email": "vlaosm@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Osm\\Bootstrap\\": "src/",
@@ -8,8 +16,8 @@
         }
     },
     "require": {
-        "php": "^7.2",
-        "osmphp/framework": "dev-master"
+        "php": ">=7.3",
+        "osmphp/framework2": "^0.1"
     },
     "extra": {
         "osm": {
